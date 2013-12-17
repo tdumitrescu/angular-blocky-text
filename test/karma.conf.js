@@ -24,6 +24,7 @@ module.exports = function(karma) {
     plugins: [
       'karma-jasmine',
       'karma-coffee-preprocessor',
+      'karma-firefox-launcher',
       'karma-phantomjs-launcher'
     ]
 
