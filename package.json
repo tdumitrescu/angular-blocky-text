@@ -2,7 +2,7 @@
   "author": "ted dumitrescu",
   "name": "angular-blocky-text",
   "description": "AngularJS component which splits text into single-char spans for special display",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "",
   "repository": {
     "type": "git",
