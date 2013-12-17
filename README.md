@@ -13,7 +13,7 @@ Sometimes a custom font just isn't enough, and you need more intricate CSS contr
 - Install into your app with Bower:
 
 ```sh
-$ bower install --save tdumitrescu/angular-blocky-text
+$ bower install --save angular-blocky-text
 ```
 
 - Require the component code in `bower_components/angular-blocky-text/blocky-text.js`
