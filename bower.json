@@ -1,0 +1,24 @@
+{
+  "name": "angular-blocky-text",
+  "version": "0.0.0",
+  "authors": [
+    "ted dumitrescu <webdev@cmme.org>"
+  ],
+  "description": "Component which splits text into single-char spans for special display",
+  "main": "blocky-text.js",
+  "keywords": [
+    "angular",
+    "text"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0"
+  }
+}
