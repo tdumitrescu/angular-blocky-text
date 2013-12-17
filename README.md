@@ -27,10 +27,20 @@ angular.module('myApp', ['tdumitrescu.blocky-text']);
 - Use directive `td-blocky-text` in your markup:
 
 ```html
-<td-blocky-text
-  text="highScore()"
-  divider="."
-/>
+<td-blocky-text text="highScore()" divider="."/>
+```
+
+The `divider` attribute is optional and specifies a character which can have special styles applied, e.g., the `:` in `05:13`, or `/` in `12/21/2013`.
+
+This will expand as follows when `$scope.highScore()` returns 13.2:
+
+```html
+<span class="td-blocky-text">
+  <span class="td-blocky-text-char">1</span>
+  <span class="td-blocky-text-char">3</span>
+  <span class="td-blocky-text-char divider">.</span>
+  <span class="td-blocky-text-char">2</span>
+</span>
 ```
 
 - Style the CSS class `td-blocky-text-char` and `td-blocky-text-char divider` as desired to apply a style to each character:
@@ -59,8 +69,6 @@ angular.module('myApp', ['tdumitrescu.blocky-text']);
   background-color: transparent;
 }
 ```
-
-The `divider` attribute is optional and specifies a character which can have special styles applied, e.g., the `:` in `05:13`, or `/` in `12/21/2013`.
 
 ## Running tests
 
