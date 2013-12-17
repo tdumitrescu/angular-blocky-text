@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tdumitrescu/angular-blocky-text.png?branch=master)](https://travis-ci.org/tdumitrescu/angular-blocky-text)
+
 # angular-blocky-text
 
 An AngularJS Bower component which transforms simple text into a character-by-character list of stylable HTML spans.
